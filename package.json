@@ -1,0 +1,34 @@
+{
+  "name": "zerocord",
+  "version": "0.0.1",
+  "description": "An open source discord dashboard to manage all your bots from a single admin panel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiratedKukreja/zerocord.git"
+  },
+  "author": {
+    "name": "Pankaj Kukreja",
+    "email": "pirated.kukreja@gmail.com",
+    "url": "https://github.com/PiratedKukreja"
+  },
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/PiratedKukreja/zerocord/issues"
+  },
+  "homepage": "https://github.com/PiratedKukreja/zerocord#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
